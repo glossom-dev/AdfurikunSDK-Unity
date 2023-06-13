@@ -16,7 +16,7 @@
     </repositories>
 
     <!-- Adfurikun -->
-    <androidPackage spec="jp.adfully:adfurikunsdk:3.18.0"/>
+    <androidPackage spec="jp.adfully:adfurikunsdk:3.18.1"/>
     <!-- AndroidXライブラリ -->
     <androidPackage spec="androidx.annotation:annotation:1.3.0"/>
     <androidPackage spec="androidx.appcompat:appcompat:1.3.1"/>
@@ -46,25 +46,25 @@
     <androidPackage spec="com.mbridge.msdk.oversea:mbbanner:16.4.11"/>          <!-- Mintegral Banner -->
     <androidPackage spec="com.mbridge.msdk.oversea:mbsplash:16.4.11"/>          <!-- Mintegral AppOpenAd -->
     <androidPackage spec="net.zucks:zucks-ad-network-sdk:6.0.0"/>               <!-- Zucks -->
-    <androidPackage spec="com.fyber:marketplace-sdk:8.2.2"/>                    <!-- Fyber -->
+    <androidPackage spec="com.fyber:marketplace-sdk:8.2.3"/>                    <!-- Fyber -->
   </androidPackages>
 
 <!-- iOS -->
   <iosPods>
-    <iosPod name="AdfurikunSDK-iOS/AppLovin" minTargetSdk="11.0" version="3.18.0.1"/>
-    <iosPod name="AdfurikunSDK-iOS/UnityAds" minTargetSdk="11.0" version="3.18.0.1"/>
-    <iosPod name="AdfurikunSDK-iOS/AdColony" minTargetSdk="11.0" version="3.18.0.1"/>
-    <iosPod name="AdfurikunSDK-iOS/Maio" minTargetSdk="11.0" version="3.18.0.1"/>
-    <iosPod name="AdfurikunSDK-iOS/Tapjoy" minTargetSdk="11.0" version="3.18.0.1"/>
-    <iosPod name="AdfurikunSDK-iOS/Vungle" minTargetSdk="11.0" version="3.18.0.1"/>
-    <iosPod name="AdfurikunSDK-iOS/Five" minTargetSdk="11.0" version="3.18.0.1"/>
-<!--    <iosPod name="AdfurikunSDK-iOS/Fyber" minTargetSdk="11.0" version="3.18.0.1"/>-->
-    <iosPod name="AdfurikunSDK-iOS/NendAd" minTargetSdk="11.0" version="3.18.0.1"/>
-    <iosPod name="AdfurikunSDK-iOS/Pangle" minTargetSdk="11.0" version="3.18.0.1"/>
-    <iosPod name="AdfurikunSDK-iOS/AdMob" minTargetSdk="11.0" version="3.18.0.1"/>
-    <iosPod name="AdfurikunSDK-iOS/ironSource" minTargetSdk="11.0" version="3.18.0.1"/>
-    <iosPod name="AdfurikunSDK-iOS/Mintegral" minTargetSdk="11.0" version="3.18.0.1"/>
-    <iosPod name="AdfurikunSDK-iOS/Zucks" minTargetSdk="11.0" version="3.18.0.1"/>
+    <iosPod name="AdfurikunSDK-iOS/AppLovin" minTargetSdk="11.0" version="3.18.1"/>
+    <iosPod name="AdfurikunSDK-iOS/UnityAds" minTargetSdk="11.0" version="3.18.1"/>
+    <iosPod name="AdfurikunSDK-iOS/AdColony" minTargetSdk="11.0" version="3.18.1"/>
+    <iosPod name="AdfurikunSDK-iOS/Maio" minTargetSdk="11.0" version="3.18.1"/>
+    <iosPod name="AdfurikunSDK-iOS/Tapjoy" minTargetSdk="11.0" version="3.18.1"/>
+    <iosPod name="AdfurikunSDK-iOS/Vungle" minTargetSdk="11.0" version="3.18.1"/>
+    <iosPod name="AdfurikunSDK-iOS/Five" minTargetSdk="11.0" version="3.18.1"/>
+<!--    <iosPod name="AdfurikunSDK-iOS/Fyber" minTargetSdk="11.0" version="3.18.1"/>-->
+    <iosPod name="AdfurikunSDK-iOS/NendAd" minTargetSdk="11.0" version="3.18.1"/>
+    <iosPod name="AdfurikunSDK-iOS/Pangle" minTargetSdk="11.0" version="3.18.1"/>
+    <iosPod name="AdfurikunSDK-iOS/AdMob" minTargetSdk="11.0" version="3.18.1"/>
+    <iosPod name="AdfurikunSDK-iOS/ironSource" minTargetSdk="11.0" version="3.18.1"/>
+    <iosPod name="AdfurikunSDK-iOS/Mintegral" minTargetSdk="11.0" version="3.18.1"/>
+    <iosPod name="AdfurikunSDK-iOS/Zucks" minTargetSdk="11.0" version="3.18.1"/>
     <sources>
       <source>https://github.com/CocoaPods/Specs</source>
     </sources>
