@@ -3,7 +3,6 @@
   <androidPackages>
     <repositories>
       <repository>https://jitpack.io</repository>                                                             <!-- Vungle -->
-      <repository>https://sdk.tapjoy.com/</repository>                                                        <!-- Tapjoy -->
       <repository>https://imobile-maio.github.io/maven</repository>                                           <!-- Maio -->
       <repository>https://fan-adn.github.io/nendSDK-Android-lib/library</repository>                          <!-- Nend -->
       <repository>https://github.com/amoad/amoad-android-sdk-maven/raw/master/</repository>                   <!-- Afio -->
@@ -16,7 +15,7 @@
     </repositories>
 
     <!-- Adfurikun -->
-    <androidPackage spec="jp.adfully:adfurikunsdk:3.19.0"/>
+    <androidPackage spec="jp.adfully:adfurikunsdk:3.19.1"/>
     <!-- AndroidXライブラリ -->
     <androidPackage spec="androidx.annotation:annotation:1.3.0"/>
     <androidPackage spec="androidx.appcompat:appcompat:1.3.1"/>
@@ -34,7 +33,6 @@
     <androidPackage spec="com.unity3d.ads:unity-ads:4.6.1"/>                    <!-- UnityAds -->
     <androidPackage spec="com.amoad:amoad-sdk:5.2.22"/>                         <!-- Afio -->
     <androidPackage spec="com.maio:android-sdk:1.1.16@aar"/>                    <!-- Maio -->
-    <androidPackage spec="com.tapjoy:tapjoy-android-sdk:13.1.2@aar"/>           <!-- Tapjoy -->
     <androidPackage spec="com.vungle:publisher-sdk-android:6.12.1"/>            <!-- Vungle -->
     <androidPackage spec="net.nend.android:nend-sdk:9.0.1"/>                    <!-- Nend -->
     <androidPackage spec="com.linecorp.adsnetwork:fivead:2.6.20230607@aar"/>    <!-- Five -->
@@ -51,20 +49,19 @@
 
 <!-- iOS -->
   <iosPods>
-    <iosPod name="AdfurikunSDK-iOS/AppLovin" minTargetSdk="11.0" version="3.19.0.1"/>
-    <iosPod name="AdfurikunSDK-iOS/UnityAds" minTargetSdk="11.0" version="3.19.0.1"/>
-    <iosPod name="AdfurikunSDK-iOS/AdColony" minTargetSdk="11.0" version="3.19.0.1"/>
-    <iosPod name="AdfurikunSDK-iOS/Maio" minTargetSdk="11.0" version="3.19.0.1"/>
-    <iosPod name="AdfurikunSDK-iOS/Tapjoy" minTargetSdk="11.0" version="3.19.0.1"/>
-    <iosPod name="AdfurikunSDK-iOS/Vungle" minTargetSdk="11.0" version="3.19.0.1"/>
-    <iosPod name="AdfurikunSDK-iOS/Five" minTargetSdk="11.0" version="3.19.0.1"/>
+    <iosPod name="AdfurikunSDK-iOS/AppLovin" minTargetSdk="11.0" version="3.19.1"/>
+    <iosPod name="AdfurikunSDK-iOS/UnityAds" minTargetSdk="11.0" version="3.19.1"/>
+    <iosPod name="AdfurikunSDK-iOS/AdColony" minTargetSdk="11.0" version="3.19.1"/>
+    <iosPod name="AdfurikunSDK-iOS/Maio" minTargetSdk="11.0" version="3.19.1"/>
+    <iosPod name="AdfurikunSDK-iOS/Vungle" minTargetSdk="11.0" version="3.19.1"/>
+    <iosPod name="AdfurikunSDK-iOS/Five" minTargetSdk="11.0" version="3.19.1"/>
 <!--    <iosPod name="AdfurikunSDK-iOS/Fyber" minTargetSdk="11.0" version="3.19.0"/>-->
-    <iosPod name="AdfurikunSDK-iOS/NendAd" minTargetSdk="11.0" version="3.19.0.1"/>
-    <iosPod name="AdfurikunSDK-iOS/Pangle" minTargetSdk="11.0" version="3.19.0.1"/>
-    <iosPod name="AdfurikunSDK-iOS/AdMob" minTargetSdk="11.0" version="3.19.0.1"/>
-    <iosPod name="AdfurikunSDK-iOS/ironSource" minTargetSdk="11.0" version="3.19.0.1"/>
-    <iosPod name="AdfurikunSDK-iOS/Mintegral" minTargetSdk="11.0" version="3.19.0.1"/>
-    <iosPod name="AdfurikunSDK-iOS/Zucks" minTargetSdk="11.0" version="3.19.0.1"/>
+    <iosPod name="AdfurikunSDK-iOS/NendAd" minTargetSdk="11.0" version="3.19.1"/>
+    <iosPod name="AdfurikunSDK-iOS/Pangle" minTargetSdk="11.0" version="3.19.1"/>
+    <iosPod name="AdfurikunSDK-iOS/AdMob" minTargetSdk="11.0" version="3.19.1"/>
+    <iosPod name="AdfurikunSDK-iOS/ironSource" minTargetSdk="11.0" version="3.19.1"/>
+    <iosPod name="AdfurikunSDK-iOS/Mintegral" minTargetSdk="11.0" version="3.19.1"/>
+    <iosPod name="AdfurikunSDK-iOS/Zucks" minTargetSdk="11.0" version="3.19.1"/>
     <sources>
       <source>https://github.com/CocoaPods/Specs</source>
     </sources>
