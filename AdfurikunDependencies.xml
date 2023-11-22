@@ -35,7 +35,7 @@
     <androidPackage spec="com.maio:android-sdk:1.1.16@aar"/>                    <!-- Maio -->
     <androidPackage spec="com.vungle:publisher-sdk-android:6.12.1"/>            <!-- Vungle -->
     <androidPackage spec="net.nend.android:nend-sdk:9.0.1"/>                    <!-- Nend -->
-    <androidPackage spec="com.linecorp.adsnetwork:fivead:2.6.20230607@aar"/>    <!-- Five -->
+    <androidPackage spec="com.linecorp.adsnetwork:fivead:2.5.20221226@aar"/>    <!-- Five(Unity環境では20221226を利用)-->
     <androidPackage spec="com.pangle.global:ads-sdk:5.1.1.0"/>                  <!-- Pangle -->
     <androidPackage spec="com.ironsource.sdk:mediationsdk:7.3.1.1"/>            <!-- IronSource -->
     <androidPackage spec="com.mbridge.msdk.oversea:reward:16.4.71"/>            <!-- Mintegral Reward -->
