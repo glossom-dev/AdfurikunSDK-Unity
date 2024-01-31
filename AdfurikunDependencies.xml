@@ -15,53 +15,53 @@
     </repositories>
 
     <!-- Adfurikun -->
-    <androidPackage spec="jp.adfully:adfurikunsdk:3.19.4"/>
+    <androidPackage spec="jp.adfully:adfurikunsdk:3.20.1"/>
     <!-- AndroidXライブラリ -->
     <androidPackage spec="androidx.annotation:annotation:1.3.0"/>
     <androidPackage spec="androidx.appcompat:appcompat:1.3.1"/>
-    <androidPackage spec="androidx.legacy:legacy-support-v4:1.0.0"/>
     <androidPackage spec="androidx.constraintlayout:constraintlayout:2.1.0"/>
     <!-- GoogleServiceAds -->
     <androidPackage spec="com.google.android.gms:play-services-ads:21.3.0"/>
     <!-- MultiDex -->
     <androidPackage spec="androidx.multidex:multidex:2.0.1"/>
     <!-- Kotlin -->
-    <androidPackage spec="org.jetbrains.kotlin:kotlin-stdlib:1.6.0"/>
+    <androidPackage spec="org.jetbrains.kotlin:kotlin-stdlib:1.7.0"/>
     <!-- 各アドネットワーク追記 -->
     <androidPackage spec="com.adcolony:sdk:4.8.0"/>                             <!-- AdColony -->
-    <androidPackage spec="com.applovin:applovin-sdk:11.10.1"/>                  <!-- AppLovin -->
-    <androidPackage spec="com.unity3d.ads:unity-ads:4.6.1"/>                    <!-- UnityAds -->
+    <androidPackage spec="com.applovin:applovin-sdk:12.1.0"/>                   <!-- AppLovin -->
+    <androidPackage spec="com.unity3d.ads:unity-ads:4.6.1"/>                    <!-- UnityAds(Unity環境では4.6.1を利用)-->
     <androidPackage spec="com.amoad:amoad-sdk:5.2.22"/>                         <!-- Afio -->
     <androidPackage spec="com.maio:android-sdk:1.1.16@aar"/>                    <!-- Maio -->
     <androidPackage spec="com.vungle:publisher-sdk-android:6.12.1"/>            <!-- Vungle -->
-    <androidPackage spec="net.nend.android:nend-sdk:9.0.1"/>                    <!-- Nend -->
+    <androidPackage spec="net.nend.android:nend-sdk:10.0.0"/>                   <!-- Nend -->
     <androidPackage spec="com.linecorp.adsnetwork:fivead:2.5.20221226@aar"/>    <!-- Five(Unity環境では20221226を利用)-->
-    <androidPackage spec="com.pangle.global:ads-sdk:5.1.1.0"/>                  <!-- Pangle -->
+    <androidPackage spec="com.pangle.global:ads-sdk:5.5.0.9"/>                  <!-- Pangle -->
     <androidPackage spec="com.ironsource.sdk:mediationsdk:7.4.0"/>              <!-- IronSource -->
-    <androidPackage spec="com.mbridge.msdk.oversea:reward:16.4.71"/>            <!-- Mintegral Reward -->
-    <androidPackage spec="com.mbridge.msdk.oversea:newinterstitial:16.4.71"/>   <!-- Mintegral Interstitial -->
-    <androidPackage spec="com.mbridge.msdk.oversea:mbnativeadvanced:16.4.71"/>  <!-- Mintegral NativeAd -->
-    <androidPackage spec="com.mbridge.msdk.oversea:mbbanner:16.4.71"/>          <!-- Mintegral Banner -->
-    <androidPackage spec="com.mbridge.msdk.oversea:mbsplash:16.4.71"/>          <!-- Mintegral AppOpenAd -->
-    <androidPackage spec="net.zucks:zucks-ad-network-sdk:6.0.0"/>               <!-- Zucks -->
-    <androidPackage spec="com.fyber:marketplace-sdk:8.2.3"/>                    <!-- Fyber -->
+    <androidPackage spec="com.mbridge.msdk.oversea:reward:16.5.71"/>            <!-- Mintegral Reward -->
+    <androidPackage spec="com.mbridge.msdk.oversea:newinterstitial:16.5.71"/>   <!-- Mintegral Interstitial -->
+    <androidPackage spec="com.mbridge.msdk.oversea:mbnativeadvanced:16.5.71"/>  <!-- Mintegral NativeAd -->
+    <androidPackage spec="com.mbridge.msdk.oversea:mbbanner:16.5.71"/>          <!-- Mintegral Banner -->
+    <androidPackage spec="com.mbridge.msdk.oversea:mbsplash:16.5.71"/>          <!-- Mintegral AppOpenAd -->
+    <!-- Fyber(Unity Platformバージョン「2021.3.31、2022.2.10、2023.1.17」以上で導入可能)-->
+    <!-- <androidPackage spec="com.fyber:marketplace-sdk:8.2.4"/> -->
   </androidPackages>
 
 <!-- iOS -->
   <iosPods>
-    <iosPod name="AdfurikunSDK-iOS/AppLovin" minTargetSdk="11.0" version="3.19.3.2"/>
-    <iosPod name="AdfurikunSDK-iOS/UnityAds" minTargetSdk="11.0" version="3.19.3.2"/>
-    <iosPod name="AdfurikunSDK-iOS/AdColony" minTargetSdk="11.0" version="3.19.3.2"/>
-    <iosPod name="AdfurikunSDK-iOS/Maio" minTargetSdk="11.0" version="3.19.3.2"/>
-    <iosPod name="AdfurikunSDK-iOS/Vungle" minTargetSdk="11.0" version="3.19.3.2"/>
-    <iosPod name="AdfurikunSDK-iOS/Five" minTargetSdk="11.0" version="3.19.3.2"/>
-<!--    <iosPod name="AdfurikunSDK-iOS/Fyber" minTargetSdk="11.0" version="3.19.3.2"/>-->
-    <iosPod name="AdfurikunSDK-iOS/NendAd" minTargetSdk="11.0" version="3.19.3.2"/>
-    <iosPod name="AdfurikunSDK-iOS/Pangle" minTargetSdk="11.0" version="3.19.3.2"/>
-    <iosPod name="AdfurikunSDK-iOS/AdMob" minTargetSdk="11.0" version="3.19.3.2"/>
-    <iosPod name="AdfurikunSDK-iOS/ironSource" minTargetSdk="11.0" version="3.19.3.2"/>
-    <iosPod name="AdfurikunSDK-iOS/Mintegral" minTargetSdk="11.0" version="3.19.3.2"/>
-    <iosPod name="AdfurikunSDK-iOS/Zucks" minTargetSdk="11.0" version="3.19.3.2"/>
+    <iosPod name="AdfurikunSDK-iOS/AppLovin" minTargetSdk="11.0" version="3.20.0"/>
+    <iosPod name="AdfurikunSDK-iOS/UnityAds" minTargetSdk="11.0" version="3.20.0"/>
+    <iosPod name="AdfurikunSDK-iOS/AdColony" minTargetSdk="11.0" version="3.20.0"/>
+    <iosPod name="AdfurikunSDK-iOS/Maio" minTargetSdk="11.0" version="3.20.0"/>
+    <iosPod name="AdfurikunSDK-iOS/Vungle" minTargetSdk="11.0" version="3.20.0"/>
+    <iosPod name="AdfurikunSDK-iOS/Five" minTargetSdk="11.0" version="3.20.0"/>
+<!--    <iosPod name="AdfurikunSDK-iOS/Fyber" minTargetSdk="11.0" version="3.20.0"/>-->
+    <iosPod name="AdfurikunSDK-iOS/NendAd" minTargetSdk="11.0" version="3.20.0"/>
+    <iosPod name="AdfurikunSDK-iOS/Afio" minTargetSdk="11.0" version="3.20.0"/>
+    <iosPod name="AdfurikunSDK-iOS/Pangle" minTargetSdk="11.0" version="3.20.0"/>
+    <iosPod name="AdfurikunSDK-iOS/AdMob" minTargetSdk="11.0" version="3.20.0"/>
+    <iosPod name="AdfurikunSDK-iOS/ironSource" minTargetSdk="11.0" version="3.20.0"/>
+    <iosPod name="AdfurikunSDK-iOS/Mintegral" minTargetSdk="11.0" version="3.20.0"/>
+    <iosPod name="AdfurikunSDK-iOS/Zucks" minTargetSdk="11.0" version="3.20.0"/>
     <sources>
       <source>https://github.com/CocoaPods/Specs</source>
     </sources>
