@@ -48,19 +48,17 @@
 
 <!-- iOS -->
   <iosPods>
-    <iosPod name="AdfurikunSDK-iOS/AppLovin" minTargetSdk="11.0" version="3.21.0"/>
-    <iosPod name="AdfurikunSDK-iOS/UnityAds" minTargetSdk="11.0" version="3.21.0"/>
-    <iosPod name="AdfurikunSDK-iOS/Maio" minTargetSdk="11.0" version="3.21.0"/>
-    <iosPod name="AdfurikunSDK-iOS/Vungle" minTargetSdk="11.0" version="3.21.0"/>
-    <iosPod name="AdfurikunSDK-iOS/Five" minTargetSdk="11.0" version="3.21.0"/>
-<!--    <iosPod name="AdfurikunSDK-iOS/Fyber" minTargetSdk="11.0" version="3.20.0"/>-->
-    <iosPod name="AdfurikunSDK-iOS/NendAd" minTargetSdk="11.0" version="3.21.0"/>
-    <iosPod name="AdfurikunSDK-iOS/Afio" minTargetSdk="11.0" version="3.21.0"/>
-    <iosPod name="AdfurikunSDK-iOS/Pangle" minTargetSdk="11.0" version="3.21.0"/>
-    <iosPod name="AdfurikunSDK-iOS/AdMob" minTargetSdk="11.0" version="3.21.0"/>
-    <iosPod name="AdfurikunSDK-iOS/ironSource" minTargetSdk="11.0" version="3.21.0"/>
-    <iosPod name="AdfurikunSDK-iOS/Mintegral" minTargetSdk="11.0" version="3.21.0"/>
-    <iosPod name="AdfurikunSDK-iOS/Zucks" minTargetSdk="11.0" version="3.21.0"/>
+    <iosPod name="AdfurikunSDK-iOS/AppLovin" minTargetSdk="12.0" version="3.21.1"/>
+    <iosPod name="AdfurikunSDK-iOS/UnityAds" minTargetSdk="12.0" version="3.21.1"/>
+    <iosPod name="AdfurikunSDK-iOS/Maio" minTargetSdk="12.0" version="3.21.1"/>
+    <iosPod name="AdfurikunSDK-iOS/Vungle" minTargetSdk="12.0" version="3.21.1"/>
+    <iosPod name="AdfurikunSDK-iOS/Five" minTargetSdk="12.0" version="3.21.1"/>
+<!--    <iosPod name="AdfurikunSDK-iOS/Fyber" minTargetSdk="12.0" version="3.21.1"/>-->
+    <iosPod name="AdfurikunSDK-iOS/Afio" minTargetSdk="12.0" version="3.21.1"/>
+    <iosPod name="AdfurikunSDK-iOS/Pangle" minTargetSdk="12.0" version="3.21.1"/>
+    <iosPod name="AdfurikunSDK-iOS/AdMob" minTargetSdk="12.0" version="3.21.1"/>
+    <iosPod name="AdfurikunSDK-iOS/ironSource" minTargetSdk="12.0" version="3.21.1"/>
+    <iosPod name="AdfurikunSDK-iOS/Mintegral" minTargetSdk="12.0" version="3.21.1"/>
     <sources>
       <source>https://github.com/CocoaPods/Specs</source>
     </sources>
