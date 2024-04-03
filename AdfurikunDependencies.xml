@@ -42,7 +42,7 @@
     <androidPackage spec="com.mbridge.msdk.oversea:mbnativeadvanced:16.5.71"/>  <!-- Mintegral NativeAd -->
     <androidPackage spec="com.mbridge.msdk.oversea:mbbanner:16.5.71"/>          <!-- Mintegral Banner -->
     <androidPackage spec="com.mbridge.msdk.oversea:mbsplash:16.5.71"/>          <!-- Mintegral AppOpenAd -->
-    <!-- Fyber(Unity Platformバージョン2022.2.2以上で導入可能)-->
+    <!-- Fyber(Unity Platformバージョン「2021.3.31、2022.2.10、2023.1.17」以上で導入可能)-->
     <!-- <androidPackage spec="com.fyber:marketplace-sdk:8.2.4"/> -->
   </androidPackages>
 
@@ -50,10 +50,10 @@
   <iosPods>
     <iosPod name="AdfurikunSDK-iOS/AppLovin" minTargetSdk="12.0" version="3.21.1"/>
     <iosPod name="AdfurikunSDK-iOS/UnityAds" minTargetSdk="12.0" version="3.21.1"/>
-    <iosPod name="AdfurikunSDK-iOS/Maio" minTargetSdk="12.0" version="3.21.1"/>
+    <iosPod name="AdfurikunSDK-iOS/Maio" minTargetSdk="12.0" version="3.21.1"/>     <!-- Xcode Project設定でEmbed&Signに設定変更必要 -->
     <iosPod name="AdfurikunSDK-iOS/Vungle" minTargetSdk="12.0" version="3.21.1"/>
     <iosPod name="AdfurikunSDK-iOS/Five" minTargetSdk="12.0" version="3.21.1"/>
-<!--    <iosPod name="AdfurikunSDK-iOS/Fyber" minTargetSdk="12.0" version="3.21.1"/>-->
+    <iosPod name="AdfurikunSDK-iOS/Fyber" minTargetSdk="12.0" version="3.21.1"/>    <!-- Xcode Project設定でEmbed&Signに設定変更必要 --> 
     <iosPod name="AdfurikunSDK-iOS/Afio" minTargetSdk="12.0" version="3.21.1"/>
     <iosPod name="AdfurikunSDK-iOS/Pangle" minTargetSdk="12.0" version="3.21.1"/>
     <iosPod name="AdfurikunSDK-iOS/AdMob" minTargetSdk="12.0" version="3.21.1"/>
