@@ -4,22 +4,20 @@
     <repositories>
       <repository>https://jitpack.io</repository>                                                             <!-- Vungle -->
       <repository>https://imobile-maio.github.io/maven</repository>                                           <!-- Maio -->
-      <repository>https://fan-adn.github.io/nendSDK-Android-lib/library</repository>                          <!-- Nend -->
       <repository>https://github.com/amoad/amoad-android-sdk-maven/raw/master/</repository>                   <!-- Afio -->
       <repository>https://artifact.bytedance.com/repository/pangle</repository>                               <!-- Pangle -->
       <repository>https://android-sdk.is.com/</repository>                                                    <!-- IronSource -->
       <repository>https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea</repository>  <!-- Mintegral -->
-      <repository>https://github.com/zucks/ZucksAdNetworkSDK-Maven/raw/master/</repository>                   <!-- Zucks -->
-      <repository>https://jcenter.bintray.com/</repository>                                                   <!-- Zucks -->
       <repository>https://github.com/glossom-dev/AdfurikunSDK-Android/raw/master</repository>                 <!-- Adfurikun -->
     </repositories>
 
     <!-- Adfurikun -->
-    <androidPackage spec="jp.adfully:adfurikunsdk:3.20.1"/>
+    <androidPackage spec="jp.adfully:adfurikunsdk:3.21.0"/>
     <!-- AndroidXライブラリ -->
     <androidPackage spec="androidx.annotation:annotation:1.3.0"/>
     <androidPackage spec="androidx.appcompat:appcompat:1.3.1"/>
     <androidPackage spec="androidx.constraintlayout:constraintlayout:2.1.0"/>
+    <androidPackage spec="androidx.localbroadcastmanager:localbroadcastmanager:1.1.0"/>
     <!-- GoogleServiceAds -->
     <androidPackage spec="com.google.android.gms:play-services-ads:21.3.0"/>
     <!-- MultiDex -->
@@ -27,14 +25,12 @@
     <!-- Kotlin -->
     <androidPackage spec="org.jetbrains.kotlin:kotlin-stdlib:1.7.0"/>
     <!-- 各アドネットワーク追記 -->
-    <androidPackage spec="com.adcolony:sdk:4.8.0"/>                             <!-- AdColony -->
     <androidPackage spec="com.applovin:applovin-sdk:12.1.0"/>                   <!-- AppLovin -->
     <androidPackage spec="com.unity3d.ads:unity-ads:4.6.1"/>                    <!-- UnityAds(Unity環境では4.6.1を利用)-->
-    <androidPackage spec="com.amoad:amoad-sdk:5.2.22"/>                         <!-- Afio -->
+    <androidPackage spec="com.amoad:amoad-sdk:5.2.25"/>                         <!-- Afio -->
     <androidPackage spec="com.maio:android-sdk:1.1.16@aar"/>                    <!-- Maio -->
     <androidPackage spec="com.vungle:publisher-sdk-android:6.12.1"/>            <!-- Vungle -->
-    <androidPackage spec="net.nend.android:nend-sdk:10.0.0"/>                   <!-- Nend -->
-    <androidPackage spec="com.linecorp.adsnetwork:fivead:2.5.20221226@aar"/>    <!-- Five(Unity環境では20221226を利用)-->
+    <androidPackage spec="com.linecorp.adsnetwork:fivead:2.7.20240214"/>        <!-- Five -->
     <androidPackage spec="com.pangle.global:ads-sdk:5.5.0.9"/>                  <!-- Pangle -->
     <androidPackage spec="com.ironsource.sdk:mediationsdk:7.4.0"/>              <!-- IronSource -->
     <androidPackage spec="com.mbridge.msdk.oversea:reward:16.5.71"/>            <!-- Mintegral Reward -->
@@ -48,17 +44,17 @@
 
 <!-- iOS -->
   <iosPods>
-    <iosPod name="AdfurikunSDK-iOS/AppLovin" minTargetSdk="12.0" version="3.21.1"/>
-    <iosPod name="AdfurikunSDK-iOS/UnityAds" minTargetSdk="12.0" version="3.21.1"/>
-    <iosPod name="AdfurikunSDK-iOS/Maio" minTargetSdk="12.0" version="3.21.1"/>     <!-- Xcode Project設定でEmbed&Signに設定変更必要 -->
-    <iosPod name="AdfurikunSDK-iOS/Vungle" minTargetSdk="12.0" version="3.21.1"/>
-    <iosPod name="AdfurikunSDK-iOS/Five" minTargetSdk="12.0" version="3.21.1"/>
-    <iosPod name="AdfurikunSDK-iOS/Fyber" minTargetSdk="12.0" version="3.21.1"/>    <!-- Xcode Project設定でEmbed&Signに設定変更必要 --> 
-    <iosPod name="AdfurikunSDK-iOS/Afio" minTargetSdk="12.0" version="3.21.1"/>
-    <iosPod name="AdfurikunSDK-iOS/Pangle" minTargetSdk="12.0" version="3.21.1"/>
-    <iosPod name="AdfurikunSDK-iOS/AdMob" minTargetSdk="12.0" version="3.21.1"/>
-    <iosPod name="AdfurikunSDK-iOS/ironSource" minTargetSdk="12.0" version="3.21.1"/>
-    <iosPod name="AdfurikunSDK-iOS/Mintegral" minTargetSdk="12.0" version="3.21.1"/>
+    <iosPod name="AdfurikunSDK-iOS/AppLovin" minTargetSdk="12.0" version="3.21.2"/> <!-- Xcode Project設定でEmbed&Signに設定変更必要 -->
+    <iosPod name="AdfurikunSDK-iOS/UnityAds" minTargetSdk="12.0" version="3.21.2"/>
+    <iosPod name="AdfurikunSDK-iOS/Maio" minTargetSdk="12.0" version="3.21.2"/>    <!-- Xcode Project設定でEmbed&Signに設定変更必要 -->
+    <iosPod name="AdfurikunSDK-iOS/Vungle" minTargetSdk="12.0" version="3.21.2"/>
+    <iosPod name="AdfurikunSDK-iOS/Five" minTargetSdk="12.0" version="3.21.2"/>
+    <iosPod name="AdfurikunSDK-iOS/Fyber" minTargetSdk="12.0" version="3.21.2"/>
+    <iosPod name="AdfurikunSDK-iOS/Afio" minTargetSdk="12.0" version="3.21.2"/>
+    <iosPod name="AdfurikunSDK-iOS/Pangle" minTargetSdk="12.0" version="3.21.2"/>
+    <iosPod name="AdfurikunSDK-iOS/AdMob" minTargetSdk="12.0" version="3.21.2"/>
+    <iosPod name="AdfurikunSDK-iOS/ironSource" minTargetSdk="12.0" version="3.21.2"/>
+    <iosPod name="AdfurikunSDK-iOS/Mintegral" minTargetSdk="12.0" version="3.21.2"/>
     <sources>
       <source>https://github.com/CocoaPods/Specs</source>
     </sources>
