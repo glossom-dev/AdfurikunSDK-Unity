@@ -12,7 +12,7 @@
     </repositories>
 
     <!-- Adfurikun -->
-    <androidPackage spec="jp.adfully:adfurikunsdk:3.20.1"/>
+    <androidPackage spec="jp.adfully:adfurikunsdk:3.22.0"/>
     <!-- AndroidXライブラリ -->
     <androidPackage spec="androidx.annotation:annotation:1.3.0"/>
     <androidPackage spec="androidx.appcompat:appcompat:1.3.1"/>
@@ -25,36 +25,36 @@
     <!-- Kotlin -->
     <androidPackage spec="org.jetbrains.kotlin:kotlin-stdlib:1.7.0"/>
     <!-- 各アドネットワーク追記 -->
-    <androidPackage spec="com.applovin:applovin-sdk:12.1.0"/>                   <!-- AppLovin -->
+    <androidPackage spec="com.applovin:applovin-sdk:12.4.3"/>                   <!-- AppLovin -->
     <androidPackage spec="com.unity3d.ads:unity-ads:4.6.1"/>                    <!-- UnityAds(Unity環境では4.6.1を利用)-->
-    <androidPackage spec="com.amoad:amoad-sdk:5.2.22"/>                         <!-- Afio -->
+    <androidPackage spec="com.amoad:amoad-sdk:5.2.25"/>                         <!-- Afio -->
     <androidPackage spec="com.maio:android-sdk:1.1.16@aar"/>                    <!-- Maio -->
-    <androidPackage spec="com.vungle:publisher-sdk-android:6.12.1"/>            <!-- Vungle -->
+    <androidPackage spec="com.vungle:vungle-ads:7.3.2"/>                        <!-- Vungle -->
     <androidPackage spec="com.linecorp.adsnetwork:fivead:2.5.20221226@aar"/> <!-- Five(Unity環境では20221226を利用)-->
-    <androidPackage spec="com.pangle.global:ads-sdk:5.5.0.9"/>                  <!-- Pangle -->
+    <androidPackage spec="com.pangle.global:ads-sdk:5.9.0.2"/>                  <!-- Pangle -->
     <androidPackage spec="com.ironsource.sdk:mediationsdk:7.4.0"/>              <!-- IronSource -->
-    <androidPackage spec="com.mbridge.msdk.oversea:reward:16.5.71"/>            <!-- Mintegral Reward -->
-    <androidPackage spec="com.mbridge.msdk.oversea:newinterstitial:16.5.71"/>   <!-- Mintegral Interstitial -->
-    <androidPackage spec="com.mbridge.msdk.oversea:mbnativeadvanced:16.5.71"/>  <!-- Mintegral NativeAd -->
-    <androidPackage spec="com.mbridge.msdk.oversea:mbbanner:16.5.71"/>          <!-- Mintegral Banner -->
-    <androidPackage spec="com.mbridge.msdk.oversea:mbsplash:16.5.71"/>          <!-- Mintegral AppOpenAd -->
-    <!-- Fyber(Unity Platformバージョン「2021.3.31、2022.2.10、2023.1.17」以上で導入可能)-->
-    <!-- <androidPackage spec="com.fyber:marketplace-sdk:8.2.4"/> -->
+    <androidPackage spec="com.mbridge.msdk.oversea:reward:16.7.31"/>            <!-- Mintegral Reward -->
+    <androidPackage spec="com.mbridge.msdk.oversea:newinterstitial:16.7.31"/>   <!-- Mintegral Interstitial -->
+    <androidPackage spec="com.mbridge.msdk.oversea:mbnativeadvanced:16.7.31"/>  <!-- Mintegral NativeAd -->
+    <androidPackage spec="com.mbridge.msdk.oversea:mbbanner:16.7.31"/>          <!-- Mintegral Banner -->
+    <androidPackage spec="com.mbridge.msdk.oversea:mbsplash:16.7.31"/>          <!-- Mintegral AppOpenAd -->
+    <!-- Fyber(Unity Platformバージョン「2022.2.10、2023.1.17」以上で導入可能)-->
+    <!-- <androidPackage spec="com.fyber:marketplace-sdk:8.2.7"/> -->
   </androidPackages>
 
 <!-- iOS -->
   <iosPods>
-    <iosPod name="AdfurikunSDK-iOS/AppLovin" minTargetSdk="12.0" version="3.21.2"/> <!-- Xcode Project設定でEmbed&Signに設定変更必要 -->
-    <iosPod name="AdfurikunSDK-iOS/UnityAds" minTargetSdk="12.0" version="3.21.2"/>
-    <iosPod name="AdfurikunSDK-iOS/Maio" minTargetSdk="12.0" version="3.21.2"/>    <!-- Xcode Project設定でEmbed&Signに設定変更必要 -->
-    <iosPod name="AdfurikunSDK-iOS/Vungle" minTargetSdk="12.0" version="3.21.2"/>
-    <iosPod name="AdfurikunSDK-iOS/Five" minTargetSdk="12.0" version="3.21.2"/>
-    <iosPod name="AdfurikunSDK-iOS/Fyber" minTargetSdk="12.0" version="3.21.2"/>
-    <iosPod name="AdfurikunSDK-iOS/Afio" minTargetSdk="12.0" version="3.21.2"/>
-    <iosPod name="AdfurikunSDK-iOS/Pangle" minTargetSdk="12.0" version="3.21.2"/>
-    <iosPod name="AdfurikunSDK-iOS/AdMob" minTargetSdk="12.0" version="3.21.2"/>
-    <iosPod name="AdfurikunSDK-iOS/ironSource" minTargetSdk="12.0" version="3.21.2"/>
-    <iosPod name="AdfurikunSDK-iOS/Mintegral" minTargetSdk="12.0" version="3.21.2"/>
+    <iosPod name="AdfurikunSDK-iOS/AppLovin" minTargetSdk="12.0" version="3.22.0"/> <!-- Xcode Project設定でEmbed&Signに設定変更必要 -->
+    <iosPod name="AdfurikunSDK-iOS/UnityAds" minTargetSdk="12.0" version="3.22.0"/>
+    <iosPod name="AdfurikunSDK-iOS/Maio" minTargetSdk="12.0" version="3.22.0"/>    <!-- Xcode Project設定でEmbed&Signに設定変更必要 -->
+    <iosPod name="AdfurikunSDK-iOS/Vungle" minTargetSdk="12.0" version="3.22.0"/>
+    <iosPod name="AdfurikunSDK-iOS/Five" minTargetSdk="12.0" version="3.22.0"/>
+    <iosPod name="AdfurikunSDK-iOS/Fyber" minTargetSdk="12.0" version="3.22.0"/>
+    <iosPod name="AdfurikunSDK-iOS/Afio" minTargetSdk="12.0" version="3.22.0"/>
+    <iosPod name="AdfurikunSDK-iOS/Pangle" minTargetSdk="12.0" version="3.22.0"/>
+    <iosPod name="AdfurikunSDK-iOS/AdMob" minTargetSdk="12.0" version="3.22.0"/>
+    <iosPod name="AdfurikunSDK-iOS/ironSource" minTargetSdk="12.0" version="3.22.0"/>
+    <iosPod name="AdfurikunSDK-iOS/Mintegral" minTargetSdk="12.0" version="3.22.0"/>
     <sources>
       <source>https://github.com/CocoaPods/Specs</source>
     </sources>
