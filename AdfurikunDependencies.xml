@@ -54,6 +54,7 @@
     <iosPod name="AdfurikunSDK-iOS/AdMob" minTargetSdk="12.0" version="3.23.1"/>
     <iosPod name="AdfurikunSDK-iOS/ironSource" minTargetSdk="12.0" version="3.23.1"/>
     <iosPod name="AdfurikunSDK-iOS/Mintegral" minTargetSdk="12.0" version="3.23.1"/>
+    <!-- <iosPod name="AdfurikunSDK-iOS/AdMobMediationAdapter" minTargetSdk="12.0" version="3.23.1" /> --> <!-- AdMobMediation Adapter経由でアドフリくんを導入する場合に使う -->
     <sources>
       <source>https://github.com/CocoaPods/Specs</source>
     </sources>
