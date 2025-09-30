@@ -11,7 +11,7 @@
 
     <!-- Adfurikun -->
     <!-- TODO Native SDKがリリースされた時、AARを削除して、Maven導入ところを復活する必要があり。 -->
-    <androidPackage spec="jp.adfully:adfurikunsdk:4.1.0"/>
+    <androidPackage spec="jp.adfully:adfurikunsdk:4.2.0"/>
     <!-- AndroidXライブラリ -->
     <androidPackage spec="androidx.appcompat:appcompat:1.3.1"/>
     <androidPackage spec="androidx.constraintlayout:constraintlayout:2.1.0"/>
@@ -41,19 +41,19 @@
 
 <!-- iOS -->
   <iosPods>
-    <iosPod name="AdfurikunSDK-iOS/AppLovin" minTargetSdk="13.0" version="4.1.0"/> <!-- Xcode Project設定でEmbed&Signに設定変更必要 -->
-    <iosPod name="AdfurikunSDK-iOS/UnityAds" minTargetSdk="13.0" version="4.1.0"/>
-    <iosPod name="AdfurikunSDK-iOS/Maio" minTargetSdk="13.0" version="4.1.0"/>    <!-- Xcode Project設定でEmbed&Signに設定変更必要 -->
-    <iosPod name="AdfurikunSDK-iOS/Vungle" minTargetSdk="13.0" version="4.1.0"/>
-    <iosPod name="AdfurikunSDK-iOS/Five" minTargetSdk="13.0" version="4.1.0"/>
-    <iosPod name="AdfurikunSDK-iOS/Fyber" minTargetSdk="13.0" version="4.1.0"/>
-    <iosPod name="AdfurikunSDK-iOS/Afio" minTargetSdk="13.0" version="4.1.0"/>    <!-- Xcode Project設定でEmbed&Signに設定変更必要 -->
-    <iosPod name="AdfurikunSDK-iOS/Pangle" minTargetSdk="13.0" version="4.1.0"/>
-    <iosPod name="AdfurikunSDK-iOS/AdMob" minTargetSdk="13.0" version="4.1.0"/>
-    <iosPod name="AdfurikunSDK-iOS/ironSource" minTargetSdk="13.0" version="4.1.0"/>
-    <iosPod name="AdfurikunSDK-iOS/Mintegral" minTargetSdk="13.0" version="4.1.0"/>
-    <iosPod name="AdfurikunSDK-iOS/InMobi" minTargetSdk="13.0" version="4.1.0"/>    <!-- Xcode Project設定でEmbed&Signに設定変更必要 -->
-    <!-- <iosPod name="AdfurikunSDK-iOS/AdMobMediationAdapter" minTargetSdk="13.0" version="4.1.0" /> --> <!-- AdMobMediation Adapter経由でアドフリくんを導入する場合に使う -->
+    <iosPod name="AdfurikunSDK-iOS/AppLovin" minTargetSdk="13.0" version="4.2.0"/> <!-- Xcode Project設定でEmbed&Signに設定変更必要 -->
+    <iosPod name="AdfurikunSDK-iOS/UnityAds" minTargetSdk="13.0" version="4.2.0"/>
+    <iosPod name="AdfurikunSDK-iOS/Maio" minTargetSdk="13.0" version="4.2.0"/>    <!-- Xcode Project設定でEmbed&Signに設定変更必要 -->
+    <iosPod name="AdfurikunSDK-iOS/Vungle" minTargetSdk="13.0" version="4.2.0"/>
+    <iosPod name="AdfurikunSDK-iOS/Five" minTargetSdk="13.0" version="4.2.0"/>
+    <iosPod name="AdfurikunSDK-iOS/Fyber" minTargetSdk="13.0" version="4.2.0"/>
+    <iosPod name="AdfurikunSDK-iOS/Afio" minTargetSdk="13.0" version="4.2.0"/>    <!-- Xcode Project設定でEmbed&Signに設定変更必要 -->
+    <iosPod name="AdfurikunSDK-iOS/Pangle" minTargetSdk="13.0" version="4.2.0"/>
+    <iosPod name="AdfurikunSDK-iOS/AdMob" minTargetSdk="13.0" version="4.2.0"/>
+    <iosPod name="AdfurikunSDK-iOS/ironSource" minTargetSdk="13.0" version="4.2.0"/>
+    <iosPod name="AdfurikunSDK-iOS/Mintegral" minTargetSdk="13.0" version="4.2.0"/>
+    <iosPod name="AdfurikunSDK-iOS/InMobi" minTargetSdk="13.0" version="4.2.0"/>    <!-- Xcode Project設定でEmbed&Signに設定変更必要 -->
+    <!-- <iosPod name="AdfurikunSDK-iOS/AdMobMediationAdapterUnity" minTargetSdk="13.0" version="4.2.0" /> --> <!-- AdMobMediation Adapter経由でアドフリくんを導入する場合に使う -->
     <sources>
       <source>https://github.com/CocoaPods/Specs</source>
     </sources>
