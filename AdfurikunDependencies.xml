@@ -11,49 +11,47 @@
 
     <!-- Adfurikun -->
     <!-- TODO Native SDKがリリースされた時、AARを削除して、Maven導入ところを復活する必要があり。 -->
-    <androidPackage spec="jp.adfully:adfurikunsdk:4.2.0"/>
+    <androidPackage spec="jp.adfully:adfurikunsdk:4.3.0"/>
     <!-- AndroidXライブラリ -->
     <androidPackage spec="androidx.appcompat:appcompat:1.3.1"/>
     <androidPackage spec="androidx.constraintlayout:constraintlayout:2.1.0"/>
     <androidPackage spec="androidx.localbroadcastmanager:localbroadcastmanager:1.1.0"/>
     <!-- GoogleServiceAds -->
-    <androidPackage spec="com.google.android.gms:play-services-ads:21.3.0"/>
+    <androidPackage spec="com.google.android.gms:play-services-ads-identifier:18.1.0"/>
     <!-- MultiDex -->
     <androidPackage spec="androidx.multidex:multidex:2.0.1"/>
     <!-- Kotlin -->
-    <androidPackage spec="org.jetbrains.kotlin:kotlin-stdlib:1.8.0"/>
+    <androidPackage spec="org.jetbrains.kotlin:kotlin-stdlib:2.0.0"/>
     <!-- 各アドネットワーク追記 -->
-    <androidPackage spec="com.applovin:applovin-sdk:13.2.0"/>                     <!-- AppLovin -->
-    <androidPackage spec="com.unity3d.ads:unity-ads:4.16.1"/>                     <!-- UnityAds-->
-    <androidPackage spec="com.amoad:amoad-sdk:5.2.30"/>                           <!-- Afio -->
-    <!-- Maio(Unity Platformバージョン「2022.1.0 ~ 2022.3.37, 2023.10以上, 6000.1.0以上」で利用可能) -->
-    <androidPackage spec="com.maio:android-sdk-v2:2.0.4@aar"/>
-    <androidPackage spec="com.vungle:vungle-ads:7.5.0"/>                          <!-- Vungle -->
-    <androidPackage spec="com.linecorp.adsnetwork:fivead:2.5.20221226@aar"/>      <!-- Five(Unity環境では20221226を利用)-->
-    <androidPackage spec="com.pangle.global:pag-sdk:7.1.0.8"/>                    <!-- Pangle -->
-    <androidPackage spec="com.unity3d.ads-mediation:mediation-sdk:8.10.0"/>       <!-- IronSource -->
-    <androidPackage spec="com.mbridge.msdk.oversea:mbridge_android_sdk:16.9.71"/> <!-- Mintegral -->
-    <!-- Fyber(Unity Platformバージョン「2021.3.42、2022.2.10、2023.1.17」以上で導入可能)-->
-    <androidPackage spec="com.fyber:marketplace-sdk:8.3.7"/>
-    <!-- Inmobi(Unity Platformバージョン「2020.3.20以上、2021.2.1 ~ 2021.2.19、2022.1.0 ~ 2022.3.37, 2023.10以上, 6000.1.0以上」で利用可能) -->
-    <androidPackage spec="com.inmobi.monetization:inmobi-ads-kotlin:10.8.3"/>
+    <androidPackage spec="com.applovin:applovin-sdk:13.5.1"/>                     <!-- AppLovin -->
+    <androidPackage spec="com.unity3d.ads:unity-ads:4.16.5"/>                     <!-- UnityAds-->
+    <androidPackage spec="com.amoad:amoad-sdk:5.2.31"/>                           <!-- Afio-->
+    <androidPackage spec="com.maio:android-sdk-v2:2.0.8@aar"/>                    <!-- Maio -->
+    <androidPackage spec="com.vungle:vungle-ads:7.6.3"/>                          <!-- Vungle -->
+    <androidPackage spec="com.linecorp.adsnetwork:fivead:2.9.20251028"/>          <!-- Five -->
+    <androidPackage spec="com.pangle.global:pag-sdk:7.8.0.8"/>                    <!-- Pangle -->
+    <androidPackage spec="com.unity3d.ads-mediation:mediation-sdk:9.2.0"/>        <!-- IronSource -->
+    <androidPackage spec="com.mbridge.msdk.oversea:mbridge_android_sdk:17.0.61"/> <!-- Mintegral -->
+    <androidPackage spec="com.fyber:marketplace-sdk:8.4.2"/>                      <!-- Fyber -->
+    <androidPackage spec="com.inmobi.monetization:inmobi-ads-kotlin:11.1.0"/>     <!-- InMobi -->
+    <androidPackage spec="com.google.android.gms:play-services-ads:23.2.0"/>      <!-- AdMob -->
   </androidPackages>
 
 <!-- iOS -->
   <iosPods>
-    <iosPod name="AdfurikunSDK-iOS/AppLovin" minTargetSdk="13.0" version="4.2.0"/> <!-- Xcode Project設定でEmbed&Signに設定変更必要 -->
-    <iosPod name="AdfurikunSDK-iOS/UnityAds" minTargetSdk="13.0" version="4.2.0"/>
-    <iosPod name="AdfurikunSDK-iOS/Maio" minTargetSdk="13.0" version="4.2.0"/>    <!-- Xcode Project設定でEmbed&Signに設定変更必要 -->
-    <iosPod name="AdfurikunSDK-iOS/Vungle" minTargetSdk="13.0" version="4.2.0"/>
-    <iosPod name="AdfurikunSDK-iOS/Five" minTargetSdk="13.0" version="4.2.0"/>
-    <iosPod name="AdfurikunSDK-iOS/Fyber" minTargetSdk="13.0" version="4.2.0"/>
-    <iosPod name="AdfurikunSDK-iOS/Afio" minTargetSdk="13.0" version="4.2.0"/>    <!-- Xcode Project設定でEmbed&Signに設定変更必要 -->
-    <iosPod name="AdfurikunSDK-iOS/Pangle" minTargetSdk="13.0" version="4.2.0"/>
-    <iosPod name="AdfurikunSDK-iOS/AdMob" minTargetSdk="13.0" version="4.2.0"/>
-    <iosPod name="AdfurikunSDK-iOS/ironSource" minTargetSdk="13.0" version="4.2.0"/>
-    <iosPod name="AdfurikunSDK-iOS/Mintegral" minTargetSdk="13.0" version="4.2.0"/>
-    <iosPod name="AdfurikunSDK-iOS/InMobi" minTargetSdk="13.0" version="4.2.0"/>    <!-- Xcode Project設定でEmbed&Signに設定変更必要 -->
-    <!-- <iosPod name="AdfurikunSDK-iOS/AdMobMediationAdapterUnity" minTargetSdk="13.0" version="4.2.0" /> --> <!-- AdMobMediation Adapter経由でアドフリくんを導入する場合に使う -->
+    <iosPod name="AdfurikunSDK-iOS/AppLovin" minTargetSdk="13.0" version="4.3.0"/> <!-- Xcode Project設定でEmbed&Signに設定変更必要 -->
+    <iosPod name="AdfurikunSDK-iOS/UnityAds" minTargetSdk="13.0" version="4.3.0"/>
+    <iosPod name="AdfurikunSDK-iOS/Maio" minTargetSdk="13.0" version="4.3.0"/>    <!-- Xcode Project設定でEmbed&Signに設定変更必要 -->
+    <iosPod name="AdfurikunSDK-iOS/Vungle" minTargetSdk="13.0" version="4.3.0"/>
+    <iosPod name="AdfurikunSDK-iOS/Five" minTargetSdk="13.0" version="4.3.0"/>
+    <iosPod name="AdfurikunSDK-iOS/Fyber" minTargetSdk="13.0" version="4.3.0"/>
+    <iosPod name="AdfurikunSDK-iOS/Afio" minTargetSdk="13.0" version="4.3.0"/>    <!-- Xcode Project設定でEmbed&Signに設定変更必要 -->
+    <iosPod name="AdfurikunSDK-iOS/Pangle" minTargetSdk="13.0" version="4.3.0"/>
+    <iosPod name="AdfurikunSDK-iOS/AdMob" minTargetSdk="13.0" version="4.3.0"/>
+    <iosPod name="AdfurikunSDK-iOS/ironSource" minTargetSdk="13.0" version="4.3.0"/>
+    <iosPod name="AdfurikunSDK-iOS/Mintegral" minTargetSdk="13.0" version="4.3.0"/>
+    <iosPod name="AdfurikunSDK-iOS/InMobi" minTargetSdk="13.0" version="4.3.0"/>    <!-- Xcode Project設定でEmbed&Signに設定変更必要 -->
+    <!-- <iosPod name="AdfurikunSDK-iOS/AdMobMediationAdapterUnity" minTargetSdk="13.0" version="4.3.0" /> --> <!-- AdMobMediation Adapter経由でアドフリくんを導入する場合に使う -->
     <sources>
       <source>https://github.com/CocoaPods/Specs</source>
     </sources>
