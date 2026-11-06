@@ -11,47 +11,108 @@
 
     <!-- Adfurikun -->
     <!-- TODO Native SDKがリリースされた時、AARを削除して、Maven導入ところを復活する必要があり。 -->
-    <androidPackage spec="jp.adfully:adfurikunsdk:4.4.0"/>
+    <androidPackage spec="jp.adfully:adfurikunsdk:4.5.0"/>
     <!-- AndroidXライブラリ -->
     <androidPackage spec="androidx.appcompat:appcompat:1.3.1"/>
     <androidPackage spec="androidx.constraintlayout:constraintlayout:2.1.0"/>
     <androidPackage spec="androidx.localbroadcastmanager:localbroadcastmanager:1.1.0"/>
+    <androidPackage spec="androidx.profileinstaller:profileinstaller:1.3.1!!"/>     <!-- Five -->
     <!-- GoogleServiceAds -->
     <androidPackage spec="com.google.android.gms:play-services-ads-identifier:18.1.0"/>
     <!-- MultiDex -->
     <androidPackage spec="androidx.multidex:multidex:2.0.1"/>
     <!-- Kotlin -->
-    <androidPackage spec="org.jetbrains.kotlin:kotlin-stdlib:2.0.0"/>
+    <androidPackage spec="org.jetbrains.kotlin:kotlin-stdlib:2.1.0"/>
     <!-- 各アドネットワーク追記 -->
-    <androidPackage spec="com.applovin:applovin-sdk:13.5.1"/>                     <!-- AppLovin -->
-    <androidPackage spec="com.unity3d.ads:unity-ads:4.16.5"/>                     <!-- UnityAds-->
-    <androidPackage spec="com.amoad:amoad-sdk:5.2.31"/>                           <!-- Afio-->
-    <androidPackage spec="com.maio:android-sdk-v2:2.0.8@aar"/>                    <!-- Maio -->
-    <androidPackage spec="com.vungle:vungle-ads:7.6.3"/>                          <!-- Vungle -->
-    <androidPackage spec="com.linecorp.adsnetwork:fivead:2.9.20251028"/>          <!-- Five -->
-    <androidPackage spec="com.pangle.global:pag-sdk:7.8.0.8"/>                    <!-- Pangle -->
-    <androidPackage spec="com.mbridge.msdk.oversea:mbridge_android_sdk:17.0.61"/> <!-- Mintegral -->
-    <androidPackage spec="com.fyber:marketplace-sdk:8.4.2"/>                      <!-- Fyber -->
-    <androidPackage spec="com.inmobi.monetization:inmobi-ads-kotlin:11.1.0"/>     <!-- InMobi -->
-    <androidPackage spec="com.google.android.gms:play-services-ads:23.2.0"/>      <!-- AdMob -->
+    <androidPackage spec="com.applovin:applovin-sdk:13.6.4"/>                       <!-- AppLovin -->
+    <androidPackage spec="com.unity3d.ads:unity-ads:4.20.0"/>                       <!-- UnityAds-->
+    <androidPackage spec="com.amoad:amoad-sdk:5.2.32"/>                             <!-- Afio-->
+    <androidPackage spec="com.maio:android-sdk-v2:2.0.9@aar"/>                      <!-- Maio -->
+    <androidPackage spec="com.vungle:vungle-ads:7.7.8"/>                            <!-- Vungle -->
+    <androidPackage spec="com.linecorp.adsnetwork:fivead:3.1.1"/>                   <!-- Five -->
+    <androidPackage spec="com.pangle.global:pag-sdk:8.2.0.4"/>                      <!-- Pangle -->
+    <androidPackage spec="com.mbridge.msdk.oversea:mbridge_android_sdk:17.1.81"/>   <!-- Mintegral -->
+    <androidPackage spec="com.fyber:marketplace-sdk:8.4.7"/>                        <!-- Fyber -->
+    <androidPackage spec="com.inmobi.monetization:inmobi-ads-kotlin:11.4.1"/>       <!-- InMobi -->
+    <androidPackage spec="com.google.android.gms:play-services-ads:25.4.0"/>        <!-- AdMob -->
   </androidPackages>
 
 <!-- iOS -->
-  <iosPods>
-    <iosPod name="AdfurikunSDK-iOS/AppLovin" minTargetSdk="13.0" version="4.4.0"/> <!-- Xcode Project設定でEmbed&Signに設定変更必要 -->
-    <iosPod name="AdfurikunSDK-iOS/UnityAds" minTargetSdk="13.0" version="4.4.0"/>
-    <iosPod name="AdfurikunSDK-iOS/Maio" minTargetSdk="13.0" version="4.4.0"/>    <!-- Xcode Project設定でEmbed&Signに設定変更必要 -->
-    <iosPod name="AdfurikunSDK-iOS/Vungle" minTargetSdk="13.0" version="4.4.0"/>
-    <iosPod name="AdfurikunSDK-iOS/Five" minTargetSdk="13.0" version="4.4.0"/>
-    <iosPod name="AdfurikunSDK-iOS/Fyber" minTargetSdk="13.0" version="4.4.0"/>
-    <iosPod name="AdfurikunSDK-iOS/Afio" minTargetSdk="13.0" version="4.4.0"/>    <!-- Xcode Project設定でEmbed&Signに設定変更必要 -->
-    <iosPod name="AdfurikunSDK-iOS/Pangle" minTargetSdk="13.0" version="4.4.0"/>
-    <iosPod name="AdfurikunSDK-iOS/AdMob" minTargetSdk="13.0" version="4.4.0"/>
-    <iosPod name="AdfurikunSDK-iOS/Mintegral" minTargetSdk="13.0" version="4.4.0"/>
-    <iosPod name="AdfurikunSDK-iOS/InMobi" minTargetSdk="13.0" version="4.4.0"/>    <!-- Xcode Project設定でEmbed&Signに設定変更必要 -->
-    <!-- <iosPod name="AdfurikunSDK-iOS/AdMobMediationAdapterUnity" minTargetSdk="13.0" version="4.4.0" /> --> <!-- AdMobMediation Adapter経由でアドフリくんを導入する場合に使う -->
-    <sources>
-      <source>https://github.com/CocoaPods/Specs</source>
-    </sources>
-  </iosPods>
+  <remoteSwiftPackage
+    url="https://github.com/glossom-dev/Adfurikun-SPM-Core"
+    version="4.5.0">
+    <swiftPackage name="AdfurikunSDK" />
+  </remoteSwiftPackage>
+  <!-- AdMob -->
+  <remoteSwiftPackage
+    url="https://github.com/glossom-dev/Adfurikun-SPM-AdMob"
+    version="4.5.0">
+    <swiftPackage name="AdfurikunAdMob" />
+  </remoteSwiftPackage>
+  <!-- Afio-->
+  <remoteSwiftPackage
+    url="https://github.com/glossom-dev/Adfurikun-SPM-Afio"
+    version="4.5.0">
+    <swiftPackage name="AdfurikunAfio" />
+  </remoteSwiftPackage>
+  <!-- AppLovin -->
+  <remoteSwiftPackage
+    url="https://github.com/glossom-dev/Adfurikun-SPM-AppLovin"
+    version="4.5.0">
+    <swiftPackage name="AdfurikunAppLovin" />
+  </remoteSwiftPackage>
+  <!-- Five -->
+  <remoteSwiftPackage
+    url="https://github.com/glossom-dev/Adfurikun-SPM-Five"
+    version="4.5.0">
+    <swiftPackage name="AdfurikunFive" />
+  </remoteSwiftPackage>
+  <!-- Fyber -->
+  <remoteSwiftPackage
+    url="https://github.com/glossom-dev/Adfurikun-SPM-Fyber"
+    version="4.5.0">
+    <swiftPackage name="AdfurikunFyber" />
+  </remoteSwiftPackage>
+  <!-- InMobi -->
+  <remoteSwiftPackage
+    url="https://github.com/glossom-dev/Adfurikun-SPM-InMobi"
+    version="4.5.0">
+    <swiftPackage name="AdfurikunInMobi" />
+  </remoteSwiftPackage>
+  <!-- Maio -->
+  <remoteSwiftPackage
+    url="https://github.com/glossom-dev/Adfurikun-SPM-Maio"
+    version="4.5.0">
+    <swiftPackage name="AdfurikunMaio" />
+  </remoteSwiftPackage>
+  <!-- Mintegral -->
+  <remoteSwiftPackage
+    url="https://github.com/glossom-dev/Adfurikun-SPM-Mintegral"
+    version="4.5.0">
+    <swiftPackage name="AdfurikunMintegral" />
+  </remoteSwiftPackage>
+  <!-- Pangle -->
+  <remoteSwiftPackage
+    url="https://github.com/glossom-dev/Adfurikun-SPM-Pangle"
+    version="4.5.0">
+    <swiftPackage name="AdfurikunPangle" />
+  </remoteSwiftPackage>
+  <!-- UnityAds-->
+  <remoteSwiftPackage
+    url="https://github.com/glossom-dev/Adfurikun-SPM-UnityAds"
+    version="4.5.0">
+    <swiftPackage name="AdfurikunUnityAds" />
+  </remoteSwiftPackage>
+  <!-- Vungle -->
+  <remoteSwiftPackage
+    url="https://github.com/glossom-dev/Adfurikun-SPM-Vungle"
+    version="4.5.0">
+    <swiftPackage name="AdfurikunVungle" />
+  </remoteSwiftPackage>
+  <!-- AdMobMediation -->
+<!--  <remoteSwiftPackage-->
+<!--    url="https://github.com/glossom-dev/Adfurikun-SPM-AdMob-Mediation"-->
+<!--    version="4.5.0">-->
+<!--    <swiftPackage name="AdfurikunAdMobMediation" />-->
+<!--  </remoteSwiftPackage>-->
 </dependencies>
